@@ -1,0 +1,11 @@
+
+<div class="drop-area drop-zone" id="content-download">
+    <div class="drag-area" >
+        <div *ngFor="let image of images">
+            <img class="images" src={{image}} alt="" srcset="" cdkDragBoundary=".drop-zone" cdkDrag>
+        </div>
+    </div>
+    <div class="drop" ></div>
+</div>
+
+<button (click)="createImage()">Download</button>

@@ -1,0 +1,28 @@
+.images {
+    width: 100px;
+    height: 100px;
+}
+
+.drop-area {
+    width: 1000px;
+    height: 1000px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+
+}
+.drag-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    padding: 2em;
+}
+
+.drop {
+    width: 100%;
+    background-image: url('src/assets/svg/feo.jpg');
+    background-position: center;
+    background-size: cover;
+}
